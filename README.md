@@ -7,12 +7,12 @@ To check the npm version
 > npm -v
 
 ## server side app
-To initialized the package.json file type the following command in server-app folder.
+To initialized the package.json file type the following command in <span style="color:blue">server-app</span> folder.
 
 > npm init
 
 It will ask you some question like app name, description, author, type all of these if you want.
-Your package.json file is ready
+Your <span style="color:blue">package.json</span> file is ready
 
 Lets install the expressJs and others dependency. You can install theme together or seperately. I will install them together to save time.
 
@@ -20,6 +20,7 @@ Lets install the expressJs and others dependency. You can install theme together
 
 write code on server.js file to create a simple api app.
 here is the most simplest example
+
 ```js client
 import express from "express";
 import dotenv from "dotenv";
@@ -46,7 +47,7 @@ app.listen(port, () => {
 
 > npm i nodemon -D
 
-To create typescript.config file use this command
+To create <span style="color:blue">typescript.config</span> file use this command
 
 > npx tsc --init
 
@@ -55,8 +56,8 @@ To create typescript.config file use this command
 >npm i @types/express @types/cors @types/mongoose @types/node -D
 
 
-When you run the npm run dev it might have show an error  like MODULE_NOT_FOUND.
-To solve this issue create a file under the src folder named "nodemon.json" and write following code on it.
+When you run the npm run dev it might have show an error  like <span style="color:blue">MODULE_NOT_FOUND.</span>
+To solve this issue create a file under the src folder named <span style="color:blue">*nodemon.json*</span> and write following code on it.
 
 ```
 {

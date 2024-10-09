@@ -19,9 +19,7 @@ app.use(
     })
 );
 
-app.use("/api/", shortUrl);
-
-
+app.use("/api", shortUrl);
 
 
 app.listen(port, () => { 
